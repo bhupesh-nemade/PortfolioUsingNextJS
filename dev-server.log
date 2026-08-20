@@ -1,0 +1,104 @@
+
+> bhupesh-nemade-portfolio@1.0.0 dev
+> next dev --hostname 127.0.0.1 --port 3000
+
+   ▲ Next.js 15.5.22
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 8.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 33.8s (2616 modules)
+ GET / 200 in 6897ms
+ ✓ Compiled in 1210ms (1214 modules)
+ ✓ Compiled in 374ms (1214 modules)
+ ✓ Compiled in 522ms (1214 modules)
+ ✓ Compiled in 350ms (1214 modules)
+ ✓ Compiled in 856ms (1214 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 4.7s (2614 modules)
+ GET / 200 in 6548ms
+ ✓ Compiled in 5.8s (1220 modules)
+ ✓ Compiled in 427ms (1220 modules)
+ ✓ Compiled in 395ms (1220 modules)
+ ✓ Compiled in 1507ms (1220 modules)
+ ✓ Compiled in 381ms (1220 modules)
+ ✓ Compiled in 510ms (1220 modules)
+ ✓ Compiled in 386ms (1220 modules)
+ ✓ Compiled in 315ms (1220 modules)
+ ✓ Compiled in 421ms (1220 modules)
+ ✓ Compiled in 1205ms (1220 modules)
+ ✓ Compiled in 529ms (1220 modules)
+ ✓ Compiled in 9.6s (1220 modules)
+ ✓ Compiled in 3.9s (1220 modules)
+ ✓ Compiled in 424ms (1220 modules)
+ ✓ Compiled in 395ms (1220 modules)
+ ✓ Compiled in 766ms (1220 modules)
+ ✓ Compiled in 535ms (1220 modules)
+ ✓ Compiled in 375ms (1220 modules)
+ ✓ Compiled in 590ms (1220 modules)
+ ✓ Compiled in 541ms (1220 modules)
+ ✓ Compiled in 369ms (1220 modules)
+ ✓ Compiled in 399ms (1220 modules)
+ ✓ Compiled in 729ms (1220 modules)
+ ✓ Compiled in 898ms (1220 modules)
+ ✓ Compiled in 341ms (1220 modules)
+ ✓ Compiled in 565ms (1220 modules)
+ ✓ Compiled in 636ms (1220 modules)
+ ✓ Compiled in 480ms (1220 modules)
+ ✓ Compiled in 657ms (1220 modules)
+ ✓ Compiled in 425ms (1220 modules)
+ ✓ Compiled in 359ms (1220 modules)
+ ✓ Compiled in 553ms (1220 modules)
+ ✓ Compiled in 850ms (1220 modules)
+ ✓ Compiled in 348ms (1220 modules)
+ ✓ Compiled in 929ms (1220 modules)
+ ✓ Compiled in 829ms (1220 modules)
+ ✓ Compiled in 819ms (1220 modules)
+ ✓ Compiled in 1052ms (1220 modules)
+ ✓ Compiled in 441ms (1220 modules)
+ ✓ Compiled in 815ms (1220 modules)
+ ✓ Compiled in 1477ms (1220 modules)
+ ✓ Compiled in 1415ms (1220 modules)
+ ✓ Compiled in 492ms (1220 modules)
+ ✓ Compiled in 3.4s (1220 modules)
+ ✓ Compiled in 2.9s (1220 modules)
+ ✓ Compiled in 5.4s (1220 modules)
+ ✓ Compiled in 725ms (1220 modules)
+ ✓ Compiled in 503ms (1220 modules)
+ ✓ Compiled in 453ms (1220 modules)
+ ✓ Compiled in 394ms (1220 modules)
+ ✓ Compiled in 1096ms (1220 modules)
+ ✓ Compiled in 817ms (1220 modules)
+ ✓ Compiled in 823ms (1220 modules)
+ ✓ Compiled in 1572ms (1220 modules)
+ ✓ Compiled in 726ms (1220 modules)
+ ✓ Compiled in 775ms (1220 modules)
+ ✓ Compiled in 1257ms (1220 modules)
+ ✓ Compiled in 595ms (1220 modules)
+ ✓ Compiled in 917ms (1220 modules)
+   ▲ Next.js 15.5.22
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 14.5s
+ ○ Compiling / ...
+ ✓ Compiled / in 64.1s (2582 modules)
+ ✓ Compiled in 1118ms (1216 modules)
+ ✓ Compiled in 5.6s (1216 modules)
+ ✓ Compiled in 31.8s (1216 modules)
+ ✓ Compiled in 3.5s (1216 modules)
+ ✓ Compiled in 8.1s (1215 modules)
+ ✓ Compiled in 1095ms (1215 modules)
+ ✓ Compiled in 11.6s (1215 modules)
+ ✓ Compiled in 6.9s (1215 modules)
+ ✓ Compiled in 5.6s (1215 modules)
+ ✓ Compiled in 2s (1215 modules)
+ ✓ Compiled in 3.4s (1215 modules)
+ ○ Compiling / ...
