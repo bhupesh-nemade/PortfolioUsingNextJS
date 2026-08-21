@@ -12,7 +12,7 @@ export function Hero() {
   const technologies = [
     "Next.js",
     "React",
- 
+    "N8N",
     "Laravel",
     "Node.js",
     "Python",

@@ -1,4 +1,5 @@
 import { FaBrain, FaCode } from "react-icons/fa6";
+
 import type { Experience, Project, Skill, Stat } from "@/types/portfolio";
 
 export const navItems = [
@@ -26,12 +27,10 @@ export const skills: Skill[] = [
   { name: "FastAPI", category: "Backend", glow: "#2dd4bf" },
   { name: "LangChain", category: "AI", glow: "#a78bfa" },
   { name: "Pinecone", category: "AI", glow: "#34d399" },
- 
+  { name: "N8N", category: "AI", glow: "#fde047" },
   { name: "MySQL", category: "Data", glow: "#f59e0b" },
- 
   { name: "Git", category: "Backend", glow: "#fb923c" },
   { name: "Crew AI", category: "AI", glow: "#3b82f6" },
-  
 ];
 
 export const projects: Project[] = [
@@ -98,7 +97,8 @@ export const projects: Project[] = [
       "Built a complete RAG pipeline using LangChain and Pinecone for semantic retrieval, FastAPI for backend APIs, Streamlit for administration, and FlutterFlow as the client application. Integrated Hugging Face LLMs and evaluated performance using RAGAS.",
     challenges:
       "Improved retrieval quality by optimizing chunking strategies, vector search, and prompt engineering to reduce hallucinations and improve answer relevance.",
-    github: "https://github.com/bhupesh-nemade/school-chatbot",
+    github:
+      "https://github.com/bhupesh-nemade/school-chatbot",
     demo: "",
   },
 
@@ -167,48 +167,70 @@ export const projects: Project[] = [
     demo: "",
   },
 
- {
-  title: "AI Research Agent",
-  slug: "ai-research-agent",
-  summary:
-    "An AI-powered research agent built with CrewAI that coordinates specialized AI agents to research topics, analyze information, and produce structured research reports.",
+  {
+    title: "AI Research Agent",
+    slug: "ai-research-agent",
+    summary:
+      "An AI-powered research agent built with CrewAI that coordinates specialized AI agents to research topics, analyze information, and produce structured research reports.",
+    image: "/projects/ai-research-agent.png",
+    stack: [
+      "Python",
+      "CrewAI",
+      "LLM",
+      "OpenRouter",
+      "Web Search",
+    ],
+    features: [
+      "Multi-Agent Research",
+      "Automated Web Research",
+      "Information Analysis",
+      "Source Gathering",
+      "Structured Report Generation",
+      "Agent Task Orchestration",
+    ],
+    architectureHighlights: [
+      "CrewAI Multi-Agent Architecture",
+      "Specialized Research Agents",
+      "Sequential Agent Workflow",
+      "LLM-Powered Analysis",
+      "Automated Research Pipeline",
+    ],
+    architecture:
+      "Built a multi-agent AI research system using CrewAI where specialized agents collaborate through a structured workflow. Research agents gather relevant information, analyze the collected findings, and pass their results through the CrewAI task pipeline to produce a structured research report.",
+    challenges:
+      "Designed an effective multi-agent workflow that separates research, analysis, and report generation responsibilities while maintaining consistent outputs and reducing the amount of manual research required.",
+    github:
+      "https://github.com/bhupesh-nemade/research-agent-using-Crew-AI",
+    demo: "",
+  },
 
-  image: "/projects/ai-research-agent.png",
-
-  stack: [
-    "Python",
-    "CrewAI",
-    "LLM",
-    "OpenRouter",
-    "Web Search",
-  ],
-
-  features: [
-    "Multi-Agent Research",
-    "Automated Web Research",
-    "Information Analysis",
-    "Source Gathering",
-    "Structured Report Generation",
-    "Agent Task Orchestration",
-  ],
-
-  architectureHighlights: [
-    "CrewAI Multi-Agent Architecture",
-    "Specialized Research Agents",
-    "Sequential Agent Workflow",
-    "LLM-Powered Analysis",
-    "Automated Research Pipeline",
-  ],
-
-  architecture:
-    "Built a multi-agent AI research system using CrewAI where specialized agents collaborate through a structured workflow. Research agents gather relevant information, analyze the collected findings, and pass their results through the CrewAI task pipeline to produce a structured research report.",
-
-  challenges:
-    "Designed an effective multi-agent workflow that separates research, analysis, and report generation responsibilities while maintaining consistent outputs and reducing the amount of manual research required.",
-
-  github: "https://github.com/bhupesh-nemade/research-agent-using-Crew-AI",
-  demo: "",
-},
+  {
+    title: "AI Email Classification Workflow",
+    slug: "ai-email-classification",
+    summary:
+      "An AI-powered email classification workflow built with n8n that automatically processes incoming emails and categorizes them based on their content.",
+    image: "/projects/email-classification.png",
+    stack: ["N8N", "AI", "LLM", "Email Automation"],
+    features: [
+      "Automatic Email Processing",
+      "AI-Based Classification",
+      "Workflow Automation",
+      "Category-Based Routing",
+      "Email Data Extraction",
+    ],
+    architectureHighlights: [
+      "n8n Workflow Automation",
+      "Email Trigger",
+      "LLM-Based Classification",
+      "Conditional Routing",
+    ],
+    architecture:
+      "Built an automated email classification workflow using n8n. Incoming emails are processed through an automated workflow, analyzed using an AI model, classified into relevant categories, and routed according to the classification result.",
+    challenges:
+      "Designed the workflow to reliably process incoming emails, generate consistent classifications, and automate routing without requiring manual intervention.",
+    github: "",
+    demo: "",
+  },
 ];
 
 export const experience: Experience[] = [
